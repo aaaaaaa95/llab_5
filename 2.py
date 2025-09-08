@@ -13,7 +13,7 @@ counter=Counter(word.lower()
                 for word in line.strip().split()
                 if word
                 )
-for word,count in Counter.most_common(num_words):
+for word,count in counter.most_common(num_words):
     sys.stdout.write(str(count))
     sys.stdout.write("\t")
     sys.stdout.write(word)

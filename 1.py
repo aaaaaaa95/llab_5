@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 #Step 1 : Fetch the HTML Content from a URL
-url = "https://www.example.com"
+url = "https://www.google.com/"
 response = requests.get(url)
 
 #Step 2 : Parse the HTML using BeautifulSoup
